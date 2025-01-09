@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+}
+
+.timmana-regular {
+    font-family: "Timmana", serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
+  
+  .host-grotesk- {
+    font-family: "Host Grotesk", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+.slide{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(80, 107, 70);
+    color: antiquewhite;
+}
+
+#gd{
+    display: flex;
+}
+
+.droite, .gauche{
+    width: 50%;
+}
+
+#texte{
+    width: 80%;
+}
+
+.img{
+    width: 60%;
+    height: 500px;
+    margin-top: 20px;
+    border: 2px solid antiquewhite;
+}
+
+.gal{
+    padding-top: 20px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#texte{
+ font-family: "Host Grotesk", serif;
+}
+
+#titre{
+    font-size: 40px;
+}
+
+hr{
+    border-top: 1px solid antiquewhite;
+    width: 60%;
+}
+
+.gal {
+    font-family: "Host Grotesk", serif;
+}
+
+
