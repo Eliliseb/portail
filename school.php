@@ -45,7 +45,8 @@
         <div id="gd">
             <div class="gauche" id="img">
                 <div class="img">
-                <?= $don['image'] ?>
+                    <img src="images/<?= $don['image'] ?>" alt="image de <?= $don['nom'] ?>">
+                
                 </div>
             </div>
             <div class="droite">
