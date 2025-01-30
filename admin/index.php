@@ -1,5 +1,12 @@
 <?php
     session_start();
+
+    if(isset($_SESSION['login']))
+    {
+        header("LOCATION:dashboard.php");
+    }
+    require"../connexion.php";
+    
     if (isset($_POST['login']) && isset($_POST['password']))
     {
         //traiter les infos
