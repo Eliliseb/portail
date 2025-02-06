@@ -27,7 +27,7 @@
         <form action="treatmentAddSchool.php" method="POST">
             <div class="form-group my-3">
                 <label for="nom">nom:</label>
-                <input type="text" id='nom' class="form-control">
+                <input type="text" id='nom' class="form-control" name="nom">
             </div>
             <div class="form-group my-3">
                 <label for="categorie">Categorie: </label>
@@ -44,7 +44,7 @@
             </div>
             <div class="form-group my-3">
                 <label for='intro'>introduction:</label>
-                <textarea name="inroduction" id="intro" class="form-control"></textarea>
+                <textarea name="introduction" id="intro" class="form-control"></textarea>
             </div>
             <div class="form-group my-3">
                 <label for='description'>description:</label>

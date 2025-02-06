@@ -28,25 +28,25 @@
         {
             $err=2;
         }else{
-            $categorie = htmlspeciachars($_POST['categorie']);
+            $categorie = htmlspecialchars($_POST['categorie']);
         }
         if(empty($_POST['introduction']))
         {
             $err=3;
         }else{
-            $introduction = htmlspeciachars($_POST['introduction']);
+            $introduction = htmlspecialchars($_POST['introduction']);
         }
         if(empty($_POST['description']))
         {
             $err=4;
         }else{
-            $descriptione = htmlspeciachars($_POST['description']);
+            $description = htmlspecialchars($_POST['description']);
         }
         if(empty($_POST['image']))
         {
             $err=5;
         }else{
-            $images = htmlspeciachars($_POST['image']);
+            $image = htmlspecialchars($_POST['image']);
         }
 
         //tester si erreur
@@ -64,10 +64,10 @@
                 ":descri" => $description,
                 ":img" => $image,
                 ":cat" => $categorie
-            ])     
+            ]);     
             $insert->closeCursor();
             //rediriger vers le tableau des écoles avec un signalement
-            header("LOCATION:scholls.php?insert=success");
+            header("LOCATION:schools.php?insert=success");
 
         }else{
             //si au - 1err
